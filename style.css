@@ -1,0 +1,45 @@
+.board{
+    height: 100vh;
+    width: 100vh;
+    border: 1px solid brown;
+    margin: auto;
+    box-sizing: border-box;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.box{
+    box-sizing: border-box;
+    height: 12.5%;
+    width: 12.5%;
+    border: 1px solid brown;
+    background-color: cornsilk;
+
+}
+
+.box:nth-child(2n):nth-child(-n+8){
+    background-color: black;
+}
+.box:nth-child(2n+9):nth-child(-n+16){
+    background-color: black;
+}
+.box:nth-child(2n+18):nth-child(-n+24){
+    background-color: black;
+}
+.box:nth-child(2n+25):nth-child(-n+31){
+    background-color: black;
+}
+.box:nth-child(2n+34):nth-child(-n+40){
+    background-color: black;
+}
+.box:nth-child(2n+41):nth-child(-n+48){
+    background-color: black;
+}
+.box:nth-child(2n+50):nth-child(-n+56){
+    background-color: black;
+}
+.box:nth-child(2n+57):nth-child(-n+64){
+    background-color: black;
+}
+
