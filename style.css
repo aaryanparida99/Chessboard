@@ -1,3 +1,4 @@
+/* The board is setup to take 100% of available viewheight and width is also fixed to same to form the board. */
 .board{
     height: 100vh;
     width: 100vh;
@@ -7,8 +8,8 @@
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
-}
 
+    /* Added border and created boxes each of which takes 12.5% of available height and width resulting in 64 squares*/
 .box{
     box-sizing: border-box;
     height: 12.5%;
